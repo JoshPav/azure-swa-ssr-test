@@ -4,6 +4,7 @@ import { DateTime } from "luxon";
 
 export async function getServerSideProps() {
   const data = JSON.stringify({ time: new Date() });
+  console.log('GENERATED TIME');
   return { props: { data } };
 }
 
