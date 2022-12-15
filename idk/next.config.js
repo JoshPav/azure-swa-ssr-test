@@ -5,6 +5,9 @@ const nextConfig = {
     domains: ["docs.microsoft.com"],
     formats: ["image/avif", "image/webp"],
   },
+  experimental: {
+    appDir: true
+  }
 };
 
 module.exports = nextConfig;

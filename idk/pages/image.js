@@ -38,27 +38,27 @@ const Index = () => (
       <ul>
         <li>
           <Link href="/layout-intrinsic">
-            <a>layout=&quot;intrinsic&quot;</a>
+            layout=&quot;intrinsic&quot;
           </Link>
         </li>
         <li>
           <Link href="/layout-responsive">
-            <a>layout=&quot;responsive&quot;</a>
+            layout=&quot;responsive&quot;
           </Link>
         </li>
         <li>
           <Link href="/layout-fixed">
-            <a>layout=&quot;fixed&quot;</a>
+            layout=&quot;fixed&quot;
           </Link>
         </li>
         <li>
           <Link href="/layout-fill">
-            <a>layout=&quot;fill&quot;</a>
+            layout=&quot;fill&quot;
           </Link>
         </li>
         <li>
           <Link href="/background">
-            <a>background demo</a>
+            background demo
           </Link>
         </li>
       </ul>
@@ -79,19 +79,17 @@ const Index = () => (
       <ul>
         <li>
           <Link href="/placeholder">
-            <a>placeholder=&quot;blur&quot;</a>
+            placeholder=&quot;blur&quot;
           </Link>
         </li>
         <li>
           <Link href="/shimmer">
-            <a>
               placeholder=&quot;blur&quot; with animated shimmer blurDataURL
-            </a>
           </Link>
         </li>
         <li>
           <Link href="/color">
-            <a>placeholder=&quot;blur&quot; with solid color blurDataURL</a>
+            placeholder=&quot;blur&quot; with solid color blurDataURL
           </Link>
         </li>
       </ul>
